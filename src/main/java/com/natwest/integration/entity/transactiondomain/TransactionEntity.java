@@ -7,6 +7,12 @@ import javax.persistence.Table;
 
 import lombok.Data;
 
+/**
+ * Use this class to store and use DB of the Transaction domain.
+ * 
+ * @author Pijush Kanti Das
+ *
+ */
 @Data
 @Entity
 @Table(name = "ACCOUNT")

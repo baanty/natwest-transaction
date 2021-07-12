@@ -7,6 +7,12 @@ import javax.persistence.Table;
 
 import lombok.Data;
 
+/**
+ * Use this class to represent the DB tables of account.
+ * 
+ * @author Pijush Kanti Das
+ *
+ */
 @Data
 @Entity
 @Table(name = "ACCOUNT")
