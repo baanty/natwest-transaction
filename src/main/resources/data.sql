@@ -1,22 +1,21 @@
  
-INSERT INTO ADDRESS (
-	ID, 
-	STREET_NAME, 
-	CITY) VALUES
-  (1, 'Eemnesserweg', 'Hilversum'),
-  (2, 'Seinstraat', 'Hilversum'),
-  (3, 'Rasselstraat', 'Bussum');
+INSERT INTO ACCOUNT (
+	ACCOUNT_NUMBER, 
+	BALANCE
+	) VALUES
+  (1, 100),
+  (2, 200),
+  (3, 300);
 
   
 INSERT INTO CUSTOMER (
-	ID, 
-	FIRST_NAME, 
-	LAST_NAME,
-	AGE,
-	ADDRESS_ID) VALUES
-  (1, 'Pijush K', 'Das', 99, 1),
-  (2, 'Mijndert', 'Rebel', 45, 2),
-  (3, 'Paul', 'Stevens', 49, 3);
+	TRANSACTION_ID, 
+	SOURCE_ACCOUNT_NUMBER, 
+	DESTINATION_ACCOUNT_NUMBER,
+	AMOUNT) VALUES
+  (1, 1, 2, 2),
+  (2, 2, 3, 34),
+  (3, 3, 1, 21);
   
   
   
