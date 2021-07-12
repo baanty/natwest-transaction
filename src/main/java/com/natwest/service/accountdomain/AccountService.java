@@ -55,6 +55,6 @@ public class AccountService implements Constants {
 		aTransactionDao.saveAndFlush(aNewTransactionEntity);
 
 		
-		return FAILURE;
+		return SUCCESS;
 	}
 }
