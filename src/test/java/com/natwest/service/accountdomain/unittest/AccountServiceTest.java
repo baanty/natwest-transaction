@@ -21,7 +21,7 @@ import com.natwest.integration.dao.transactiondomain.TransactionDao;
 import com.natwest.integration.entity.accountdomain.AccountEntity;
 import com.natwest.service.accountdomain.AccountService;
 
-@RunWith(MockitoJUnitRunner.class)
+@RunWith(MockitoJUnitRunner.Silent.class)
 public class AccountServiceTest {
 	
 	@Mock
