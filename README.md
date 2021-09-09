@@ -16,6 +16,8 @@ A Postman JSON will look like the below
 }
 
 After the application is deployed by Spring boot, the database will be avialble at the
+
+# Database URL
 URL http://localhost:8081/natwest-transaction-api/h2-console
 
 Please use user id = sa and password = password to access the database.
